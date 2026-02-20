@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.js" integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .project-bg {
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url('https://www.controlescolarmexico.com/assets/img/control-escolar-bg.png');
+            background-size: cover;
+            background-position: top;
+        }
+    </style>
+</head>
+<body class="bg-black text-white">
+    
+    <nav class="bg-black flex px-6">
+        <a href="" class="text-2xl">rovlas4</a>
+        <div class="ml-auto">
+            <i class="fa-regular fa-flag"></i>
+            <i class="fa-solid fa-flag"></i>
+            <input type="checkbox" name="" id="">
+        </div>
+    </nav>
+
+    <div class="container mx-auto py-8">
+        <div class="flex gap-4 mx-4">
+            <div class="bg-gray-800 border border-gray-800 rounded-lg p-6 basis-2/2">
+            <span class="ml-1 text-red-600 text-xl">Desarrollador Junior</span>
+            <h1 class="text-7xl font-bold mb-4">Salvador Pérez</h1>
+            <p class="text-gray-400 text-lg ">Desarrollador apasionado con enfoque en tecnologías web modernas. Especializado en Laravel, JavaScript y bases de datos. Dedicado a crear soluciones innovadoras y código de calidad. Con 2 años de experiencia, busco contribuir a proyectos que generen impacto en nuestra comunidad.</p>
+            <button class="px-4 py-2 rounded bg-red-600 mt-4 mr-4" id="btnContactar">Contactar</button>
+            <button class="px-4 py-2 border rounded border-gray-600">Proyectos <i class="far fa-arrow-alt-circle-down"></i></button>
+        </div>
+        <div class="bg-gray-800 border border-gray-800 rounded-lg p-6">
+            <div>
+            <h3 class="text-gray-400">Estadísticas</h3>
+            </div>
+            <div class="flex justify-between">
+                <span class="text-2xl font-black">676,767</span>
+                <i class="fas fa-code text-yellow-500 text-2xl p-2"></i>
+            </div>
+                <p class="text-gray-400 text-lg mb-4 text-yellow-500">Líneas de código finalizadas</p>
+
+            <div>
+                <span class="text-2xl font-black text-black-500">2</span>
+                <i class="fas far fa-clock text-green-500 text-2xl p-2"></i>
+            </div>
+                <p class="text-green-400 text-lg mb-4">Años de experiencia</p>
+            <div>
+                <span class="text-2xl font-black">6</span>
+                <i class="fas fa-code text-blue-500 text-2xl p-2"></i>
+            </div>
+                <p class="text-lg mb-4 text-blue-500">Lenguajes</p>
+        </div>
+        </div>
+        
+            <div class="flex gap-4 mx-4 my-4">
+                <div class="border border-gray-800 rounded-lg p-6 basis-2/2 project-bg">
+                    <div class="relative z-10 top-25 left-0 p-6">
+                        <span class="inline-block text-red-400 text-sm font-semibold mb-2 ">Laravel</span>
+                        <span class="inline-block text-red-400 text-sm font-semibold ml-2">Tailwind</span>
+                        <h2 class="text-2xl font-bold mb-3 mt-3">Sistema de control escolar</h2>
+                        <p class="text-gray-300 text-sm">Plataforma completa de gestión educativa que permite administrar estudiantes, calificaciones y reportes. Desarrollada con Laravel en backend y Tailwind CSS para una interfaz moderna. Incluye autenticación segura, validaciones avanzadas y reportes en PDF.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border border-gray-800 rounded-lg p-6">
+                    <h3 class="text-gray-400 uppercase text-sm mb-6">Lenguajes</h3>
+                    <div class="grid grid-cols-3 gap-6">
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://pngimg.com/d/php_PNG34.png" alt="PHP" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">PHP</span>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png" alt="JavaScript" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">JavaScript</span>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/960px-Python-logo-notext.svg.png" alt="Python" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">Python</span>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://images.seeklogo.com/logo-png/48/2/mongodb-logo-png_seeklogo-481256.png" alt="MongoDB" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">MongoDB</span>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9UXfrx8TWM7eyKB1jdIk66ZoGVmTtqWjKQ&s" alt="MySQL" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">MySQL</span>
+                        </div>
+                        <div class="flex flex-col items-center text-center">
+                            <div class="w-16 h-16 bg-gray-700 rounded border border-gray-600 flex items-center justify-center mb-3">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1280px-HTML5_logo_and_wordmark.svg.png" alt="HTML" class="w-8 h-8">
+                            </div>
+                            <span class="text-gray-400 text-sm">HTML</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-4 mx-4 my-4">
+                <div class="bg-gray-800 border border-gray-800 rounded-lg p-6 basis-3/3 relative">
+                    <div class="ml-2.5 absolute top-4 left-4 w-12 h-12 bg-teal-500 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-flask text-white text-lg"></i>
+                    </div>
+                    <div class="pt-12">
+                        <h2 class="text-xl font-bold mb-1">LAB RATS</h2>
+                        <p class="text-gray-300 text-sm">Plataforma experimental de análisis de datos y visualización. Proyecto académico que demuestra capacidades en procesamiento de información, asicronía y representación visual de resultados complejos.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border border-gray-800 rounded-lg p-6 basis-3/3 relative">
+                    <div class="ml-2.5 absolute top-4 left-4 w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-chart-line text-white text-lg"></i>
+                    </div>
+                    <div class="pt-12">
+                        <h3 class="text-xl font-bold mb-1">Gestión de proyectos</h3>
+                        <p class="text-gray-300 text-sm">Experiencia en metodologías ágiles, planificación de sprints y seguimiento de tareas. Capacidad para estructurar proyectos complejos, establecer hitos claros y coordinar entregas puntuales con equipos multidisciplinarios.</p>
+                    </div>
+                </div>
+                <div class="bg-gray-800 border border-gray-800 rounded-lg p-6 basis-3/3 relative">
+                    <div class="ml-2.5 absolute top-4 left-4 w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center">
+                        <i class="fas fa-users text-white text-lg"></i>
+                    </div>
+                    <div class="pt-12">
+                        <h3 class="text-xl font-bold mb-1">Trabajo en equipo</h3>
+                        <p class="text-gray-300 text-sm">Colaboración efectiva en entornos multidisciplinarios. Comunicación clara, capacidad de escucha y disposición para aprender. Experiencia trabajando con diseñadores, QA y otros desarrolladores para alcanzar objetivos comunes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalContacto" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-gray-800 rounded-lg p-8 w-96 border border-gray-700">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold">Contactar</h2>
+                <button id="closeModal" class="text-gray-400 hover:text-white text-2xl">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="formContacto">
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm mb-2">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white focus:outline-none focus:border-red-600">
+                </div>
+                <div class="mb-4">
+                    <label class="block text-gray-300 text-sm mb-2">Correo</label>
+                    <input type="email" id="correo" name="correo" required class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white focus:outline-none focus:border-red-600">
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-300 text-sm mb-2">Asunto</label>
+                    <textarea id="asunto" name="asunto" rows="4" required class="w-full bg-gray-700 border border-gray-600 rounded px-3 py-2 text-white focus:outline-none focus:border-red-600"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-red-600 hover:bg-red-700 px-4 py-2 rounded font-semibold">Enviar</button>
+            </form>
+            <div id="mensajeRespuesta" class="hidden mt-4 p-3 rounded text-center text-sm"></div>
+        </div>
+    </div>
+
+    <script>
+        const modalContacto = document.getElementById('modalContacto');
+        const btnContactar = document.getElementById('btnContactar');
+        const closeModal = document.getElementById('closeModal');
+        const formContacto = document.getElementById('formContacto');
+        const mensajeRespuesta = document.getElementById('mensajeRespuesta');
+
+        btnContactar.addEventListener('click', function() {
+            modalContacto.classList.remove('hidden');
+        });
+
+        closeModal.addEventListener('click', function() {
+            modalContacto.classList.add('hidden');
+            formContacto.reset();
+            mensajeRespuesta.classList.add('hidden');
+        });
+
+        modalContacto.addEventListener('click', function(e) {
+            if (e.target === modalContacto) {
+                modalContacto.classList.add('hidden');
+                formContacto.reset();
+                mensajeRespuesta.classList.add('hidden');
+            }
+        });
+
+        formContacto.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const nombre = document.getElementById('nombre').value;
+            const correo = document.getElementById('correo').value;
+            const asunto = document.getElementById('asunto').value;
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://corsproxy.io/?url=https://diane-domesticable-eliz.ngrok-free.dev/enviar',
+                contentType: 'application/json',
+                dataType: 'json',
+                data: JSON.stringify({
+                    nombre: nombre,
+                    correo: correo,
+                    asunto: asunto
+                }),
+                success: function(response) {
+                    mensajeRespuesta.classList.remove('hidden');
+                    mensajeRespuesta.classList.add('bg-green-600');
+                    mensajeRespuesta.classList.remove('bg-red-600');
+                    mensajeRespuesta.textContent = 'Correo enviado correctamente!';
+                    formContacto.reset();
+                    
+                    setTimeout(function() {
+                        modalContacto.classList.add('hidden');
+                    }, 2000);
+                },
+                error: function(xhr, status, error) {
+                    console.log('Error Status:', xhr.status);
+                    console.log('Error Text:', xhr.responseText);
+                    console.log('Error Message:', error);
+                    
+                    mensajeRespuesta.classList.remove('hidden');
+                    mensajeRespuesta.classList.add('bg-red-600');
+                    mensajeRespuesta.classList.remove('bg-green-600');
+                    mensajeRespuesta.textContent = `Error ${xhr.status}: ${xhr.responseText || error}`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
